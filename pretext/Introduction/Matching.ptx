@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <section xml:id="introduction_introduction_matching">
   <title>Matching</title>
-  <exercise label="chapter1glos">
+
+  <exercise label="chapter1glos_part1">
     <statement>
       <p>Drag the word on the left to its corresponding definition (not all the words from the glossary appear below.)</p>
     </statement>
@@ -13,10 +14,54 @@
         <premise>abstraction</premise>
         <response>focusing on desired behaviors and properties while disregarding what is irrelevant/unimportant</response>
       </match>
+      <match order="2">
+        <premise>mutability</premise>
+        <response>able to be modified.</response>
+      </match>
+      <match order="3">
+        <premise>address-of</premise>
+        <response>&amp;</response>
+      </match>
+      <match order="4">
+        <premise>argument</premise>
+        <response>data passed to a parameter.</response>
+      </match>
+      <match order="5">
+        <premise>array</premise>
+        <response>a data structure consisting of an ordered collection of data elements of identical type</response>
+      </match>
+      <match order="6">
+        <premise>atomic data type</premise>
+        <response>basic data type that cannot be broken down into any simpler data elements.</response>
+      </match>
+      <match order="7">
+        <premise>inheritance</premise>
+        <response>sharing/gaining the same behavior as another class</response>
+      </match>
+      <match order="8">
+        <premise>polymorphism</premise>
+        <response>the ability to process objects or methods differently depending on their data type, class, number of arguments, etc.</response>
+      </match>
+      <match order="9">
+        <premise>class</premise>
+        <response>a template for creating (instantiating) objects, for providing initial values for state via member variables</response>
+      </match>
       <match order="10">
         <premise>class methods</premise>
         <response>the functions that belong to a particular class</response>
       </match>
+    </matches>
+  </exercise>
+
+  <!-- The styling makes it appear like this, I believe: if we change the styling, we can have only one exercise -->
+  <exercise label="chapter1glos_part2">
+    <statement>
+      <p>Drag the word on the left to its corresponding definition (continued...)</p>
+    </statement>
+    <feedback>
+      <p>Try again!</p>
+    </feedback>
+    <matches>
       <match order="11">
         <premise>collection</premise>
         <response>a grouping of data items that have some shared significance or need to be operated upon together.</response>
@@ -53,44 +98,13 @@
         <premise>friend function</premise>
         <response>a function defined outside that class' scope but has access to private and protected members of the class</response>
       </match>
-      <match order="2">
-        <premise>mutability</premise>
-        <response>able to be modified.</response>
-      </match>
       <match order="20">
         <premise>function</premise>
         <response>A section of code that performs a procedure and is usually named</response>
       </match>
-      <match order="3">
-        <premise>address-of</premise>
-        <response>&amp;</response>
-      </match>
-      <match order="4">
-        <premise>argument</premise>
-        <response>data passed to a parameter.</response>
-      </match>
-      <match order="5">
-        <premise>array</premise>
-        <response>a data structure consisting of an ordered collection of data elements of identical type</response>
-      </match>
-      <match order="6">
-        <premise>atomic data type</premise>
-        <response>basic data type that cannot be broken down into any simpler data elements.</response>
-      </match>
-      <match order="7">
-        <premise>inheritance</premise>
-        <response>sharing/gaining the same behavior as another class</response>
-      </match>
-      <match order="8">
-        <premise>polymorphism</premise>
-        <response>the ability to process objects or methods differently depending on their data type, class, number of arguments, etc.</response>
-      </match>
-      <match order="9">
-        <premise>class</premise>
-        <response>a template for creating (instantiating) objects, for providing initial values for state via member variables</response>
-      </match>
     </matches>
   </exercise>
+
   <p>
     <!-- extra space before the progress bar -->
   </p>
