@@ -729,6 +729,12 @@ int main( ) {
         </input>
         </program>
       </blockquote>
+      </subsubsection>
+      <subsubsection xml:id="subsubsec-Introduction-Arrow Notation">
+        <title>Introduction to Arrow Notation</title>
+        <p>
+          <p>In C++, the arrow operator <c>-></c> is used to access members of a structure or class through a pointer. It is a shorthand for dereferencing the pointer and accessing a member in one step. Instead of writing <c>(*ptr).member</c>, you can simply write <c>ptr->member</c>. This notation improves readability and is commonly used when working with dynamic data structures like linked lists.</p>
+        </p> 
       <exercise label="mc_pntrhlp">
         <statement>
           <p>If the lines (varN = 50;) and  (cout &lt;&lt; *ptrN &lt;&lt; endl;) were inserted into line 7-8, what would it cout?</p>
